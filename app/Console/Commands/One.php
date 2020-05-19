@@ -38,6 +38,6 @@ class One extends Command
      */
     public function handle()
     {
-        Log::info('laravel');
+        Log::info('laravel' . '__' . date('Y-m-d h:i:s'));
     }
 }
