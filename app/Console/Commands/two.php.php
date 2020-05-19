@@ -3,16 +3,15 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Log;
 
-class One extends Command
+class two.php extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'oneName';
+    protected $signature = 'command:name';
 
     /**
      * The console command description.
@@ -38,6 +37,6 @@ class One extends Command
      */
     public function handle()
     {
-        Log::info('laravel' . '__' . date('Y-m-d h:i:s') . '__second:branch');
+        //
     }
 }
