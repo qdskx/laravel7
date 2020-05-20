@@ -38,5 +38,6 @@ class test extends Command
     public function handle()
     {
         $name = $this->ask('What is your name?');
+        $this->info('Display this on the screen');
     }
 }

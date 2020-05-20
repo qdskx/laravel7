@@ -21,7 +21,9 @@ Route::get('index/user', 'IndexController@user');
 Route::get('', 'IndexController@index');
 
 Route::get('user/ty', 'UserController@ty');
-Route::get('/user', 'UserController@index');
+//Route::get('user/{id?}', 'UserController@index');
+Route::post('user/testQuery', 'UserController@testQuery');
+
 
 Route::get('/hello', function(){
 	return   ' world1';

@@ -16,6 +16,7 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\LogInfo::class,
         \App\Console\Commands\test::class,
         \App\Console\Commands\One::class,
+        \App\Console\Commands\two::class,
     ];
 
     /**
