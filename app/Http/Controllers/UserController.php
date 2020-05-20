@@ -50,7 +50,7 @@ Class UserController extends Controller{
         var_dump($request->query());
         var_dump($request->post());
         var_dump($request->all());
-        var_dump($request->input());
+//        var_dump($request->input());
     }
 
 
