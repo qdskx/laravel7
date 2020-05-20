@@ -1,0 +1,48 @@
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 96ae08e..fd83d5c 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -36,8 +36,8 @@[m
+       <file pinned="false" current-in-tab="true">[m
+         <entry file="file://$PROJECT_DIR$/resources/views/home/adeal.blade.php">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="218">[m
+[31m-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />[m
+[32m+[m[32m            <state relative-caret-position="203">[m
+[32m+[m[32m              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />[m
+             </state>[m
+           </provider>[m
+         </entry>[m
+[36m@@ -276,7 +276,7 @@[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="46732000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="46860000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />[m
+[36m@@ -486,8 +486,8 @@[m
+     </entry>[m
+     <entry file="file://$PROJECT_DIR$/resources/views/home/adeal.blade.php">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="218">[m
+[31m-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />[m
+[32m+[m[32m        <state relative-caret-position="203">[m
+[32m+[m[32m          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[1mdiff --git a/resources/views/home/adeal.blade.php b/resources/views/home/adeal.blade.php[m
+[1mindex 9c7c7dd..1a77e3b 100644[m
+[1m--- a/resources/views/home/adeal.blade.php[m
+[1m+++ b/resources/views/home/adeal.blade.php[m
+[36m@@ -8,7 +8,7 @@[m
+     <input type= "hidden"  name="token" value="{{csrf_token()}}">[m
+     <input type="text" name="user" />[m
+     <input type="text" name="更新了windowsGit版本管理器之后呢" />[m
+[31m-    <input type="text" name="可以了" />[m
+[32m+[m[32m    <input type="text" name="可以了再试试" />[m
+     <input type="submit" value="提交">[m
+ </form>[m
+ </body>[m
