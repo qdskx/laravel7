@@ -8,6 +8,7 @@
     <input type= "hidden"  name="token" value="{{csrf_token()}}">
     <input type="text" name="user" />
     <input type="text" name="更新了windowsGit版本管理器之后呢" />
+    <input type="text" name="可以了" />
     <input type="submit" value="提交">
 </form>
 </body>
