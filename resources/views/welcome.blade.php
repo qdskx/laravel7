@@ -95,6 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="https://github.com/laravel/laravel">我的你的</a>
                     <a href="https://github.com/laravel/laravel">我的你的</a>
+                    <a href="https://github.com/laravel/laravel">我的你的</a>
                 </div>
             </div>
         </div>
