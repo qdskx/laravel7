@@ -93,7 +93,8 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                    <a href="https://github.com/laravel/laravel">我的</a>
+                    <a href="https://github.com/laravel/laravel">我的你的</a>
+                    <a href="https://github.com/laravel/laravel">我的你的</a>
                 </div>
             </div>
         </div>
