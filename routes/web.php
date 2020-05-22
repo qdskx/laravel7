@@ -52,3 +52,15 @@ Route::namespace('home')->group(function(){
 Route::namespace('home')->prefix('admin')->group(function(){
     Route::get('one' , 'OneController@one');
 });
+
+
+
+
+
+
+
+
+Route::namespace('admin')->prefix('admin')->group(function(){
+    Route::get('login' , 'LoginController@index');
+    Route::post('doLogin' , 'LoginController@doLogin');
+});
