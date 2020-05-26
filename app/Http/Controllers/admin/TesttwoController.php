@@ -7,4 +7,8 @@ class TesttwoController extends Controller{
     public function index(){
         var_dump('ffffffff');
     }
+
+    public function fourNine(){
+        var_dump('fourNine');
+    }
 }
