@@ -5,6 +5,6 @@ use Illuminate\Http\Request;
 
 class TesttwoController extends Controller{
     public function index(){
-
+        var_dump('ffffffff');
     }
 }
