@@ -11,4 +11,8 @@ class TesttwoController extends Controller{
     public function fourNine(){
         var_dump('fourNine');
     }
+
+    public function again(){
+        var_dump('again');
+    }
 }
