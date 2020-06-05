@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use \Illuminate\Http\Request;
+use one\One;
 
 Class UserController extends Controller{
 
@@ -54,7 +55,10 @@ Class UserController extends Controller{
     }
 
 
-
+    public function useEqualAppClass(One $one){
+        var_dump('以namespace的方式引入与app同级的目录');
+        $one->index();
+    }
 
 
 

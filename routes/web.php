@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+ Route::get('/', function () {
+     return view('welcome');
+ });
 
 Route::get('index/user', 'IndexController@user');
 Route::get('', 'IndexController@index');
@@ -65,3 +65,5 @@ Route::namespace('admin')->prefix('admin')->group(function(){
     Route::post('doLogin' , 'LoginController@doLogin');
     Route::get('testtwo' , 'TesttwoController@index');
 });
+
+Route::get('useEqualAppClass' , 'UserController@useEqualAppClass');

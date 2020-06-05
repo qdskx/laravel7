@@ -50,8 +50,10 @@ class two extends Command
 //////            $this->info($input);
 ////        });//
 
-        var_dump($name);
+//        var_dump($name);
 //        var_dump($user);
+//        $name = $this->line('hello shao');
+        var_dump($name);
     }
 
 }
