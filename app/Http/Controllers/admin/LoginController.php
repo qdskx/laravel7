@@ -12,4 +12,5 @@ class LoginController extends Controller{
         $param =  $request->input('name');
         var_dump($param);
     }
+
 }

@@ -67,3 +67,11 @@ Route::namespace('admin')->prefix('admin')->group(function(){
 });
 
 Route::get('useEqualAppClass' , 'UserController@useEqualAppClass');
+
+
+
+//Route::namespace('admin')->prefix('admin')->get('testMiddle' , 'UserController@index')
+//->middleware('userlogin');
+
+Route::namespace('admin')->prefix('admin')->get('testMiddle' , 'UserController@index')
+    ->middleware(['ad']);
