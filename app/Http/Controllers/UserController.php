@@ -16,7 +16,8 @@ Class UserController extends Controller{
 		return view('home.adeal');
 	}
 
-	public function index($id = 67 , Request $request ){
+	public function index($idf = 67 , Request $request ){
+        var_dump($idf);die;
         var_dump('admin.user.index 这应用了中间件userlogin');
 		var_dump('index');
 //		$url = $request->path();
@@ -25,8 +26,8 @@ Class UserController extends Controller{
 		var_dump('到这admin.user.index 输出结束');
 	}
 
-    public function userty(Request $request ,  $id , $type = 'null'){
-//        var_dump('===' . $id);
+    public function userty(Request $request ,  $idr , $type = 'null'){
+        var_dump('===' . $idr);die;
         var_dump($request->all());
 //        var_dump($request->all('name'));
 //        var_dump($request->input());

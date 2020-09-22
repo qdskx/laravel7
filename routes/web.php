@@ -22,6 +22,7 @@ Route::get('', 'IndexController@index');
 
 Route::get('user/ty', 'UserController@ty');
 //Route::get('user/{id?}', 'UserController@index');
+Route::get('user/{id}', 'UserController@index');
 Route::post('user/testQuery', 'UserController@testQuery');
 
 
@@ -75,3 +76,8 @@ Route::get('useEqualAppClass' , 'UserController@useEqualAppClass');
 
 Route::namespace('admin')->prefix('admin')->get('testMiddle' , 'UserController@index')
     ->middleware(['ad']);
+
+Route::get('testRedis' , 'IndexController@testRedis3');
+
+
+Route::get('xs' , 'XsController@index');
