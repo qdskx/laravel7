@@ -81,3 +81,7 @@ Route::get('testRedis' , 'IndexController@testRedis3');
 
 
 Route::get('xs' , 'XsController@index');
+Route::get('xss' , 'XsController@test');
+
+Route::get('cookie/add' , 'CookieController@add');
+Route::get('cookie/get_cookie' , 'CookieController@get_cookie');
