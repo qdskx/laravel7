@@ -85,3 +85,12 @@ Route::get('xss' , 'XsController@test');
 
 Route::get('cookie/add' , 'CookieController@add');
 Route::get('cookie/get_cookie' , 'CookieController@get_cookie');
+
+
+Route::namespace('zzshop')->prefix('zzshop')->group(
+    function(){
+        Route::get('orderlist' , 'OrderlistController@orderList');
+        Route::get('send' , 'OrderlistController@send');
+    }
+);
+
