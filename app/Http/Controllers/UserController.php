@@ -17,13 +17,13 @@ Class UserController extends Controller{
 	}
 
 	public function index($idf = 67 , Request $request ){
-        var_dump($idf);die;
+        var_dump($idf);
         var_dump('admin.user.index 这应用了中间件userlogin');
 		var_dump('index');
 //		$url = $request->path();
 		$url = $request->url();
 		var_dump($url);
-		var_dump('到这admin.user.index 输出结束');
+		var_dump('到这admin.user.index 输出结束vvvvvvvvvvvvvvvhhhhhhhhhhhhhhhhhhhh');
 	}
 
     public function userty(Request $request ,  $idr , $type = 'null'){

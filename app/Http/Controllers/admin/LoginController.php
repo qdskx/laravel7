@@ -5,6 +5,8 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller{
     public function index(){
+        $path = base_path('routes/web.php');
+        var_dump('what' , $path);
         return view('admin.login');
     }
 
